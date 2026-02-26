@@ -1,6 +1,6 @@
 <template>
-    <div
-        class="bg-card border border-white/10 rounded-2xl p-6 h-full flex flex-col hover:-translate-y-2 hover:shadow-xl transition-all duration-300">
+    <div class="bg-card border border-white/10 rounded-2xl p-6 h-full flex flex-col hover:scale-[1.02] hover:shadow-xl transition-all duration-300"
+        data-aos="fade-up">
         <h3 class="text-xl font-semibold mb-3">
             {{ project.title }}
         </h3>

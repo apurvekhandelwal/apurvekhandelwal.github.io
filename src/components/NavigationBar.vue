@@ -1,5 +1,8 @@
 <template>
-    <header class="fixed top-0 w-full z-50 bg-bg/80 backdrop-blur border-b border-white/10">
+    <header :class="[
+        'fixed top-0 w-full z-50 backdrop-blur border-b border-white/10 transition',
+        scrolled ? 'bg-bg shadow-lg' : 'bg-bg/80'
+    ]">
         <nav class="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <!-- Logo / Name -->
             <div class="text-lg font-semibold tracking-wide">
@@ -36,6 +39,13 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-const open = ref(false)
+import { ref, onMounted } from 'vue'
+
+const scrolled = ref(false)
+
+onMounted(() => {
+    window.addEventListener('scroll', () => {
+        scrolled.value = window.scrollY > 10
+    })
+})
 </script>

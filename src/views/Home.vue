@@ -9,13 +9,14 @@
                 <!-- Left Content -->
                 <div>
                     <h1 class="text-3xl sm:text-4xl md:text-6xl font-bold leading-tight mb-6">
-                        Building <span class="text-accent">scalable</span><br />
-                        web & mobile products
+                        Engineering <span class="text-accent">scalable systems</span><br />
+                        for real-world businesses
                     </h1>
 
                     <p class="text-gray-400 text-lg mb-8 max-w-xl">
-                        Full Stack Developer specializing in Vue, Laravel, and Flutter.
-                        I build production-ready dashboards, SaaS platforms, and business systems.
+                        Full Stack Engineer with 5+ years of experience building production-grade
+                        warehouse systems, SaaS dashboards, and cross-platform mobile applications
+                        using Vue.js, Laravel, and Flutter.
                     </p>
 
                     <div class="flex flex-wrap gap-3 mb-8">
@@ -55,7 +56,8 @@
                             <p class="text-sm text-gray-400 mb-2">Currently working with</p>
                             <h3 class="text-xl font-semibold mb-4">Vue · Laravel · Flutter</h3>
                             <p class="text-gray-400 text-sm">
-                                5+ years experience building real-world applications used by businesses.
+                                Currently building production-grade warehouse management systems for international
+                                logistics operations.
                             </p>
                         </div>
                     </div>
@@ -63,8 +65,55 @@
 
             </div>
         </section>
+        <section class="py-24 border-t border-white/10" data-aos="fade-up">
+            <div class="max-w-4xl mx-auto px-6 text-center">
+                <h2 class="text-3xl md:text-4xl font-bold mb-6">About Me</h2>
+                <p class="text-gray-400 leading-relaxed text-lg max-w-3xl mx-auto">
+                    I design and develop scalable web and mobile systems used in logistics,
+                    warehouse management, and ecommerce environments. My expertise includes
+                    REST API architecture, role-based authentication systems, frontend
+                    modular design, and performance optimization for production applications.
+                    I focus on maintainable architecture, clean code practices, and delivering
+                    measurable business value.
+                </p>
+            </div>
+        </section>
+        <section class="py-24 border-t border-white/10" data-aos="fade-up">
+            <div class="max-w-6xl mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold mb-10">Tech Stack</h2>
+                <div class="grid md:grid-cols-3 gap-8 text-gray-400">
+                    <div class="bg-card border border-white/10 rounded-2xl p-6 hover:border-accent/30 transition">
+                        <h3 class="text-white font-semibold mb-2">Frontend:</h3>
+                        Vue.js (Composition API), Responsive UI, Modular Components
+                    </div>
+                    <div class="bg-card border border-white/10 rounded-2xl p-6 hover:border-accent/30 transition">
+                        <h3 class="text-white font-semibold mb-2">Backend:</h3>
+                        Laravel (MVC), RESTful APIs, Authentication, Role-Based Access, MySQL
+                    </div>
+                    <div class="bg-card border border-white/10 rounded-2xl p-6 hover:border-accent/30 transition">
+                        <h3 class="text-white font-semibold mb-2">Mobile:</h3>
+                        Flutter, Provider State Management, Firebase, Payment Integrations
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="py-24 border-t border-white/10" data-aos="fade-up">
+            <div class="max-w-6xl mx-auto px-6">
+                <h2 class="text-3xl md:text-4xl font-bold mb-10">Engineering Approach</h2>
+                <div class="grid md:grid-cols-2 gap-8 text-gray-400">
+                    <div>
+                        <h3 class="text-white font-semibold mb-2">Architecture</h3>
+                        MVC structure, modular components, RESTful API design, role-based access control.
+                    </div>
+                    <div>
+                        <h3 class="text-white font-semibold mb-2">Workflow</h3>
+                        Agile sprint planning, Git version control, debugging, performance optimization.
+                    </div>
+                </div>
+            </div>
+        </section>
         <!-- PROJECTS -->
-        <section id="projects" class="py-24">
+        <section id="projects" class="py-24" data-aos="fade-up">
             <div class="max-w-7xl mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold mb-4">
                     Selected Projects

@@ -9,7 +9,8 @@
 
             <!-- Right -->
             <div class="flex gap-6 text-sm">
-                <a href="https://github.com/" target="_blank" class="text-gray-400 hover:text-white transition">
+                <a href="https://github.com/apurvekhandelwal" target="_blank"
+                    class="text-gray-400 hover:text-white transition">
                     GitHub
                 </a>
 
